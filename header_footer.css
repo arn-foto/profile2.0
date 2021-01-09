@@ -52,6 +52,12 @@ a {
   text-decoration: none;
   color: whitesmoke;
 }
+a:hover {
+  color: cyan;
+  transition: all 1.4s ease;
+  -webkit-transition: all 1.5s ease;
+  cursor: pointer;
+}
 
 /* Footer styling starts here */
 .footer {
@@ -78,5 +84,13 @@ a {
 .footer__left {
   display: flex;
   padding-top: 12px;
+}
+
+.footer__middle img:hover {
+  background-color: cyan;
+  transition: all 1.4s ease;
+  -webkit-transition: all 2.5s ease;
+  cursor: pointer;
+  border-radius: 50px;
 }
 /* Footer styling ends here. */
