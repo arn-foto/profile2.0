@@ -2,6 +2,7 @@
   margin: 0;
 }
 
+/* Navigation styling starts here */
 nav {
   display: flex;
   position: sticky;
@@ -36,10 +37,6 @@ nav {
   margin-right: 20px;
 }
 
-a:link {
-  text-decoration: none;
-}
-
 @media only screen and (max-width: 600px) {
   .nav__right {
     display: flex;
@@ -48,7 +45,15 @@ a:link {
     font-size: 2rem;
   }
 }
+/* Navigationg styling ends here */
 
+/* Link styling */
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/* Footer styling starts here */
 .footer {
   display: flex;
   position: sticky;
@@ -74,3 +79,4 @@ a:link {
   display: flex;
   padding-top: 12px;
 }
+/* Footer styling ends here. */
