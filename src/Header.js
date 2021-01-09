@@ -9,7 +9,7 @@ function Header() {
       </div>
 
       <div className="header__right">
-        <p>About me.</p>
+        <p>Projects.</p>
         <p>Projects.</p>
         <p>Contact.</p>
       </div>
