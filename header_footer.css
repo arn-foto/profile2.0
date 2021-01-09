@@ -89,7 +89,7 @@ a:hover {
 .footer__middle img:hover {
   background-color: cyan;
   transition: all 1.4s ease;
-  -webkit-transition: all 2.5s ease;
+  -webkit-transition: all 2s ease;
   cursor: pointer;
   border-radius: 50px;
 }
