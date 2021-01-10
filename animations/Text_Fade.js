@@ -6,7 +6,7 @@ const span = document.querySelector("span");
 
 const tl = new TimelineMax();
 
-tl.fromTo(".nav__left", 0.7, { x: "-100%" }, { x: "0%", ease: Power2.easInout })
+tl.fromTo(".nav__left", 1, { x: "-100%" }, { x: "0%", ease: Power2.easInout })
   .fromTo(
     ".about__me",
     1,
@@ -14,9 +14,9 @@ tl.fromTo(".nav__left", 0.7, { x: "-100%" }, { x: "0%", ease: Power2.easInout })
     { x: "0%", ease: Power2.easInout },
     "-=1"
   )
-  .fromTo(".stack", 1, { x: "90%" }, { x: "0%", ease: Power2.easInout }, "-=1")
-  .fromTo("h1", 1, { x: "-90%" }, { x: "0%", ease: Power2.easInout }, "-=1")
-  .fromTo("span", 1, { x: "90%" }, { x: "0%", ease: Power2.easInout }, "-=1");
+  .fromTo(".stack", 1, { x: "90%" }, { x: "0%", ease: Power2.easInout }, "-=2")
+  .fromTo("h1", 1.5, { x: "90%" }, { x: "0%", ease: Power2.easInout }, "-=1")
+  .fromTo("span", 1, { x: "90%" }, { x: "0%", ease: Power2.easInout }, "-=2");
 
 // gsap.registerEffect({
 //   name: "fade",
