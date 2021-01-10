@@ -1,9 +1,9 @@
-.fullstack__img {
+.stack {
   display: flex;
   justify-content: center;
 }
-@media only screen and (max-width: 700px) {
-  .fullstack__img {
+@media only screen and (max-width: 600px) {
+  .stack {
     display: none;
   }
 }
@@ -18,21 +18,16 @@
   z-index: -1;
 }
 
-section {
-  display: flex;
-  height: 90vh;
-  justify-content: center;
-  align-items: center;
+.about__me {
   color: whitesmoke;
+  align-items: center;
   padding: 10px;
   margin: 10px;
 }
 @media only screen and (max-width: 700px) {
-  section {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 25px;
+  .about__me > {
+    font-size: 10px;
+    padding-top: 10px;
     margin: 10px;
   }
 }
