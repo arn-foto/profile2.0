@@ -190,8 +190,8 @@ a:hover {
 }
 
 @media only screen and (max-width: 700px) {
-  .modal__icons {
-    width: 100%;
+  .modal__icons img {
+    width: 50%;
   }
 }
 .modal__links > a {
