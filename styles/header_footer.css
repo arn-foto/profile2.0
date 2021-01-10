@@ -15,6 +15,7 @@ nav {
   padding-top: 5px;
   padding-bottom: 5px;
   width: 100%;
+  z-index: 1;
   text-shadow: 2px 2px 9px white;
 }
 @media only screen and (max-width: 600px) {
