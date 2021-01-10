@@ -1,19 +1,38 @@
-.box {
-  width: 200px;
-  height: 200px;
-  position: cover;
-  border-radius: 6px;
-  margin-top: 5px;
-  display: inline-block;
+.fullstack__img {
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 700px) {
+  .fullstack__img {
+    display: none;
+  }
 }
 
-.cyan {
-  background-color: cyan;
+.slider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to left, black, grey);
+  z-index: -1;
 }
 
-.black {
-  background-color: black;
+section {
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  padding: 10px;
+  margin: 10px;
 }
-.grey {
-  background-color: #989898;
+@media only screen and (max-width: 700px) {
+  section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25px;
+    margin: 10px;
+  }
 }
