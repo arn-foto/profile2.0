@@ -2,11 +2,11 @@ const stack__desk = document.querySelector("stack");
 const about__me = document.querySelector("#about__me");
 const slider = document.querySelector(".slider");
 const h1 = document.querySelector("h1");
-const span = document.querySelector("span");
+// const span = document.querySelector("span");
 
 const tl = new TimelineMax();
 
-tl.fromTo(".span", 1, { x: "100%" }, { x: "0%", ease: Power2.easInout })
+tl.fromTo("h1", 1, { x: "100%" }, { x: "0%", ease: Power2.easInout })
   .fromTo(
     ".about__me",
     1,
