@@ -123,6 +123,7 @@ a:hover {
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
+  padding-top: 10px;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
@@ -189,11 +190,6 @@ a:hover {
   padding: 10px;
 }
 
-@media only screen and (max-width: 700px) {
-  .modal__icons img {
-    width: 50%;
-  }
-}
 .modal__links > a {
   display: flex;
   justify-content: space-evenly;
