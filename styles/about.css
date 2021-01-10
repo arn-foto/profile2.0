@@ -3,11 +3,6 @@
 
   justify-content: center;
 }
-@media only screen and (max-width: 600px) {
-  .stack {
-    display: none;
-  }
-}
 
 .slider {
   position: absolute;
