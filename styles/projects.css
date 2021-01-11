@@ -48,6 +48,7 @@
 	display: flex;
 	justify-content: center;
 	font-weight: bolder;
+	color: whitesmoke;
 	text-shadow: 2px 2px 9px white;
 }
 .project__text > h1 {
