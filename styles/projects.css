@@ -15,8 +15,6 @@
 		font-size: 1rem;
 		padding-top: 180px;
 		padding-bottom: 130px;
-    margin: 10px
-    width:auto;
 		background: linear-gradient(to left, black, grey);
 	}
 }
@@ -43,12 +41,16 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin: 5px;
+	padding: 5px;
 }
 
 .projects__right {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin: 5px;
+	padding: 5px;
 }
 
 .slider__projects {
@@ -68,7 +70,7 @@
 .project__text {
 	font-weight: bolder;
 	color: whitesmoke;
-	text-shadow: 2px 2px 9px black;
+	text-shadow: 0 0 1px black;
 }
 .project__text > h1 {
 	display: flex;
@@ -83,7 +85,6 @@
 	font-weight: bolder;
 	color: black;
 	font-size: 1rem;
-	text-shadow: 5px 5px 5px black;
 }
 
 button {
@@ -92,7 +93,7 @@ button {
 	border-radius: 50px;
 	background-color: whitesmoke;
 	color: black;
-	text-shadow: 5px 5px 5px black;
+	text-shadow: 0 0 1px black;
 	border-style: none;
 }
 button:hover {
