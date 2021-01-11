@@ -15,6 +15,8 @@
 		font-size: 1rem;
 		padding-top: 180px;
 		padding-bottom: 130px;
+    margin: 10px
+    width:auto;
 		background: linear-gradient(to left, black, grey);
 	}
 }
