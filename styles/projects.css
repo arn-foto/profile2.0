@@ -24,13 +24,7 @@
 	opacity: 1;
 	transition: transform 0.2s;
 }
-@media only screen and (max-width: 600px) {
-	.projects {
-		display: flex;
-		padding-left: 70px;
-		padding-top: 130px;
-	}
-}
+
 .projects img:hover {
 	box-shadow: 0px 0px 20px 10px cyan;
 	transform: scale(1);
