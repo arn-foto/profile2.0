@@ -7,9 +7,9 @@ const slider = document.querySelector(".slider");
 const tl = new TimelineMax();
 
 tl.fromTo(nav, 1, { x: "10%" }, { x: "0%", ease: Power2.easInout }).fromTo(
-  ".footer",
-  1,
-  { x: "-10%" },
-  { x: "0%", ease: Power2.easInout },
-  "-=1"
+	".footer",
+	1,
+	{ x: "-10%" },
+	{ x: "0%", ease: Power2.easInout },
+	"-=1"
 );
