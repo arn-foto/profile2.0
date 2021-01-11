@@ -16,10 +16,15 @@
 		background: linear-gradient(to left, black, grey);
 	}
 }
+@media only screen and (max-width: 600px) {
+	img {
+		display: flex;
+		justify-content: center;
+	}
+}
 .projects img {
 	border-radius: 3%;
 	box-shadow: 0px 0px 20px 10px cyan;
-	background-color: cyan;
 	opacity: 1;
 	transition: transform 0.2s;
 }
@@ -29,12 +34,19 @@
 	transform: scale(1);
 	opacity: 0.7;
 }
-.projects__left > h1 {
-	color: whitesmoke;
+
+.projects__left {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
 }
 
-.projects__right > h1 {
-	color: whitesmoke;
+.projects__right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
 }
 
 .slider__projects {
@@ -67,6 +79,6 @@
 .project__text a {
 	font-weight: bolder;
 	color: whitesmoke;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	text-shadow: 2px 2px 9px black;
 }
