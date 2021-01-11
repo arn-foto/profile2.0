@@ -1,9 +1,8 @@
 .projects {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	padding-top: 130px;
 	height: 100%;
-	width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -63,4 +62,11 @@
 	justify-content: center;
 	font-size: 1.2rem;
 	padding-top: 10px;
+}
+
+.project__text a {
+	font-weight: bolder;
+	color: whitesmoke;
+	font-size: 1.5rem;
+	text-shadow: 2px 2px 9px black;
 }
