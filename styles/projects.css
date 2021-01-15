@@ -2,7 +2,6 @@
 	display: flex;
 	justify-content: space-around;
 	padding-top: 130px;
-	height: 100%;
 	color: cyan;
 	text-shadow: 10px 10px 10px black;
 }
@@ -13,9 +12,10 @@
 		align-items: center;
 		flex-direction: column;
 		font-size: 1rem;
-		padding-top: 180px;
-		padding-bottom: 130px;
+		padding-top: 280px;
+		padding-bottom: 230px;
 		background: linear-gradient(to left, black, grey);
+		position: absolute;
 	}
 }
 @media only screen and (max-width: 600px) {
@@ -41,24 +41,18 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 5px;
-	padding: 5px;
 }
 
 .projects__middle {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 5px;
-	padding: 5px;
 }
 
 .projects__right {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 5px;
-	padding: 5px;
 	color: cyan;
 	text-shadow: 10px 10px 10px black;
 }
