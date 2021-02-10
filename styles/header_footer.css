@@ -68,12 +68,14 @@ nav {
 a {
 	text-decoration: none;
 	color: whitesmoke;
+	transition: width 2s, height 2s, transform 2s;
 }
 a:hover {
 	color: cyan;
 	transition: all 1.4s ease;
 	-webkit-transition: all 1.5s ease;
 	cursor: pointer;
+	transform: rotate(180deg);
 }
 
 /* Link styling end */
