@@ -64,6 +64,12 @@
 	transform: rotate(0.5deg);
 }
 
+.projects__demo {
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid whitesmoke;
+}
+
 .projects__title {
 	color: black;
 	font-size: 1.5em;
@@ -72,6 +78,9 @@
 }
 
 .projects__stack {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	color: cyan;
 	font-size: 1em;
 	font-weight: bold;
