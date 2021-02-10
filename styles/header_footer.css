@@ -6,6 +6,7 @@
 nav {
 	display: flex;
 	position: fixed;
+
 	top: 0;
 	color: whitesmoke;
 	font-weight: bold;
@@ -73,7 +74,7 @@ a {
 a:hover {
 	color: cyan;
 	transition: all 1.4s ease;
-	-webkit-transition: all 1.5s ease;
+	-webkit-transition: all 1s ease;
 	cursor: pointer;
 	transform: rotate(180deg);
 }
