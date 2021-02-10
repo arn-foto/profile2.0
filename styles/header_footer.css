@@ -113,10 +113,10 @@ a:hover {
 	background-color: cyan;
 	cursor: pointer;
 	border-radius: 70px;
-	transition: all 1.4s ease;
+	transition: width 2s, height 2s, transform 2s;
 	-webkit-transition: all 1s ease;
 	cursor: pointer;
-	transform: rotate(40deg);
+	transform: rotate(30deg);
 }
 /* Footer styling ends here. */
 
