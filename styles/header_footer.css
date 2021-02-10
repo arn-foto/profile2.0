@@ -6,7 +6,6 @@
 nav {
 	display: flex;
 	position: fixed;
-
 	top: 0;
 	color: whitesmoke;
 	font-weight: bold;
@@ -36,11 +35,11 @@ nav {
 
 @media only screen and (max-width: 650px) {
 	.nav__left {
-		box-shadow: 0px 0px 10px 10px cyan;
+		box-shadow: 0px 0px 10px 10px #b0f7f5;
 		background-color: cyan;
 		border: none;
 		transition: all 1.4s ease;
-		-webkit-transition: all 1.3s ease;
+		-webkit-transition: all 1s ease-in-out;
 		cursor: pointer;
 		border-radius: 70px;
 		color: rgb(36, 36, 36);
@@ -70,9 +69,12 @@ nav {
 a {
 	text-decoration: none;
 	color: whitesmoke;
+	transition: width 1s, height 1s, transform 1s;
+	-webkit-transition: all 1.5s ease-in-out;
+	transform: rotate(360deg);
 }
 a:hover {
-	color: cyan;
+	color: #b0f7f5;
 }
 
 /* Link styling end */
@@ -98,26 +100,29 @@ a:hover {
 	justify-content: space-evenly;
 	width: 50%;
 	padding-top: 5px;
+	transition: width 1s, height 1s, transform 1s;
+	-webkit-transition: all 1.4s ease-in-out;
 }
+.footer__middle img:hover {
+	background-color: #b0f7f5;
+	cursor: pointer;
+	border-radius: 70px;
+	transition: width 1s, height 1s, transform 1s;
+	-webkit-transition: all 1.4s ease-in-out;
+	transform: rotate(30deg);
+	box-shadow: 0px 0px 15px 5px #b0f7f5;
+}
+
 .footer__right {
 	display: flex;
 	padding-top: 12px;
 }
+
 .footer__left {
 	display: flex;
 	padding-top: 12px;
 }
 
-.footer__middle img:hover {
-	box-shadow: 0px 0px 20px 5px cyan;
-	background-color: cyan;
-	cursor: pointer;
-	border-radius: 70px;
-	transition: width 2s, height 2s, transform 2s;
-	-webkit-transition: all 1s ease;
-	cursor: pointer;
-	transform: rotate(30deg);
-}
 /* Footer styling ends here. */
 
 /* Pop up module styling starts here */
@@ -159,7 +164,7 @@ a:hover {
 	padding: 10px;
 	width: 30%;
 	opacity: 0.8;
-	box-shadow: 0px 0px 20px 10px cyan;
+	box-shadow: 0px 0px 20px 10px #b0f7f5;
 }
 
 @media only screen and (max-width: 700px) {
@@ -169,7 +174,7 @@ a:hover {
 		padding: 10px;
 		width: 90%;
 		opacity: 0.8;
-		box-shadow: 0px 0px 20px 10px cyan;
+		box-shadow: 0px 0px 20px 10px #b0f7f5;
 	}
 }
 
@@ -203,7 +208,7 @@ a:hover {
 }
 
 .modal__icons img:hover {
-	box-shadow: 0px 0px 20px 10px cyan;
+	box-shadow: 0px 0px 20px 10px #b0f7f5;
 	background-color: cyan;
 	transition: all 1.4s ease;
 	-webkit-transition: all 1.7s ease;
