@@ -29,7 +29,7 @@
 
 .projects img:hover {
 	transform: rotate(0.8deg);
-	transition: all 1.2s ease;
+	transition: width 2s, height 2s, transform 2s;
 	-webkit-transition: all 1s ease;
 }
 
@@ -54,7 +54,7 @@
 .projects__left:hover {
 	box-shadow: 0px 0px 20px 5px cyan;
 	background-color: whitesmoke;
-	transition: all 1.2s ease;
+	transition: width 2s, height 2s, transform 2s;
 	-webkit-transition: all 1s ease;
 	cursor: pointer;
 	border-radius: 10px;
@@ -105,7 +105,7 @@ button {
 }
 button:hover {
 	box-shadow: 0px 0px 10px 10px cyan;
-	transition: all 1.4s ease;
+	transition: width 2s, height 2s, transform 2s;
 	-webkit-transition: all 1.5s ease;
 	cursor: pointer;
 }
