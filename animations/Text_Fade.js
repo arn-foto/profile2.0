@@ -33,7 +33,7 @@ tl.fromTo("h1", 1, { x: "100%" }, { x: "0%", ease: Power2.easInout })
 	.fromTo(
 		".slider__projects",
 		1,
-		{ x: "1000%" },
+		{ x: "-1000%" },
 		{ x: "0%", ease: Power2.easInout },
 		"-=2"
 	)
