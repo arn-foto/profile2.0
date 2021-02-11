@@ -36,7 +36,7 @@
 }
 
 .projects__left:hover {
-	filter: drop-shadow(2px 4px 8px #b0f7f5);
+	filter: drop-shadow(5px 5px 10px #b0f7f5);
 	background-color: white;
 	transition: width 1s, height 1s, transform 1s;
 	-webkit-transition: all 1s ease-in-out;
@@ -83,7 +83,8 @@
 }
 
 .projects__demo p {
-	padding-top: 2px;
+	padding-top: 5px;
+	margin-bottom: 5px;
 }
 
 .projects__title {
