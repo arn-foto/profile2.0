@@ -36,7 +36,7 @@ nav {
 @media only screen and (max-width: 650px) {
 	.nav__left {
 		box-shadow: 0px 0px 10px 10px #b0f7f5;
-		background-color: cyan;
+		background-color: #b0f7f5;
 		border: none;
 		transition: all 1.4s ease;
 		-webkit-transition: all 1s ease-in-out;
@@ -207,6 +207,8 @@ a:hover {
 	width: 115%;
 	align-items: center;
 	padding: 10px;
+	transition: all 1.4s ease;
+	-webkit-transition: all 1.7s ease;
 }
 
 .modal__links > a {
@@ -218,7 +220,7 @@ a:hover {
 
 .modal__icons img:hover {
 	box-shadow: 0px 0px 20px 10px #b0f7f5;
-	background-color: cyan;
+	background-color: #b0f7f5;
 	transition: all 1.4s ease;
 	-webkit-transition: all 1.7s ease;
 	cursor: pointer;
