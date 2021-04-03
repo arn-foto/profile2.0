@@ -1,5 +1,5 @@
 #Profile2.0
-It will always be updated.
+Forever being updated.
 
 Deployed: https://dev-ant.netlify.app/
 
