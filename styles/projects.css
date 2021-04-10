@@ -49,11 +49,11 @@
 @media only screen and (max-width: 600px) {
 	.projects__left {
 		display: flex;
-		flex-direction: column;
+
 		align-items: center;
 		margin: 5px;
 		padding: 5px;
-		height: 110vh;
+		height: 200vh;
 		border: 1px solid black;
 		background-color: white;
 		border-radius: 8px;
