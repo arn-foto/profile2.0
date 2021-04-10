@@ -13,8 +13,7 @@
 		align-items: center;
 		flex-direction: column;
 		font-size: 1rem;
-		padding-top: 280px;
-		padding-bottom: 160px;
+
 		background: linear-gradient(to left, black, grey);
 		position: absolute;
 	}
@@ -49,11 +48,9 @@
 @media only screen and (max-width: 600px) {
 	.projects__left {
 		display: flex;
-
 		align-items: center;
 		margin: 5px;
 		padding: 5px;
-		height: 200vh;
 		border: 1px solid black;
 		background-color: white;
 		border-radius: 8px;
